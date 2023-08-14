@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "Sophia Contesini",
-      "budget": "5000",
+      "name": "Atualizado 2",
+      "budget": "13300",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
