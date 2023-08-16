@@ -1,17 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "Atualizado 2",
-      "budget": "13300",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": -165,
-      "services": [],
-      "id": 1
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,
