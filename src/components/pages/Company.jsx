@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../pages/Company.module.css';
+import LinkButton from '../layout/LinkButton';
 
 export default function Company() {
   return (
@@ -22,51 +23,17 @@ export default function Company() {
         amigável que permite a você:
       </p>
       <ul>
-        <li>
-          Adicionar Serviços: Cadastre os serviços que compõem o seu projeto,
-          atribuindo a eles detalhes específicos e custos associados.
-        </li>
-        <li>
-          Remover Serviços: Se as circunstâncias mudarem, você pode facilmente
-          remover serviços que já não são necessários ou relevantes para o
-          projeto.
-        </li>
-        <li>
-          Editar Detalhes e Custos: A flexibilidade é importante. Com a HenRico,
-          você pode editar os detalhes e os custos dos serviços existentes para
-          manter os dados atualizados conforme as necessidades mudam.
-        </li>
-        <li>
-          Acompanhar Orçamento: Estabeleça um orçamento inicial para o projeto e
-          observe a HenRico calcular e atualizar automaticamente o orçamento
-          restante à medida que você adiciona, edita ou remove serviços.
-        </li>
-        <li>
-          Evitar Extravasamento: Nossa principal prioridade é ajudá-lo(a) a
-          manter o controle financeiro do seu projeto. A HenRico emite alertas
-          quando você está se aproximando do limite de orçamento, permitindo que
-          você tome decisões informadas.
-        </li>
+        <li>Adicionar Serviços</li>
+        <li>Remover Serviços</li>
+        <li>Editar Detalhes e Custos</li>
+        <li>Acompanhar Orçamento</li>
+        <li>Evitar Extravasamento</li>
       </ul>
-      <h2>Por Que Escolher a HenRico?</h2>
-      <p>
-        Sabemos que cada projeto é único e requer atenção individualizada. A
-        HenRico foi projetada com a sua flexibilidade em mente. Quer você esteja
-        gerenciando um projeto pessoal ou uma iniciativa empresarial, nosso
-        objetivo é oferecer uma experiência simplificada, adaptável e poderosa
-        para atender às suas necessidades.
-      </p>
-      <p>
-        Nossa equipe está comprometida em fornecer as ferramentas necessárias
-        para você tomar decisões inteligentes e baseadas em dados, garantindo
-        que o seu projeto se mantenha no caminho certo e dentro do orçamento
-        planejado. Junte-se a nós na jornada para um gerenciamento financeiro
-        mais eficiente e tranquilo.
-      </p>
       <p>
         Comece a usar a HenRico hoje mesmo e descubra como podemos tornar o
         gerenciamento de projetos e custos uma experiência gratificante.
       </p>
+      <LinkButton to='/newproject' text='CRIAR PROJETO' />
     </div>
   );
 }
