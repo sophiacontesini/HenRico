@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# HenRico - Gerenciador de Custos de Projetos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O HenRico é um aplicativo de gerenciamento de custos de projetos que permite aos usuários adicionar, editar e remover serviços associados a um projeto. Ele também ajuda a acompanhar o orçamento para evitar exceder o orçamento inicial do projeto. O aplicativo foi desenvolvido usando React, JavaScript e Styled Components para a estilização.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Adicione e remova serviços associados ao projeto.
+- Edite detalhes e custos dos serviços existentes.
+- Acompanhe o orçamento total do projeto em tempo real.
+- Receba alertas quando o orçamento estiver próximo de ser excedido.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Uma biblioteca JavaScript para a construção de interfaces de usuário interativas.
+- **JavaScript**: A linguagem de programação principal utilizada para a lógica do aplicativo.
+- **Styled Components**: Uma biblioteca que permite escrever CSS dentro do JavaScript, facilitando a estilização dos componentes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Executar o Projeto
 
-### `npm test`
+  1. Clone este repositório para o seu computador:
+  - git clone git@github.com:sophiacontesini/HenRico.git.
+     
+  2. Navegue até a pasta do projeto: 
+  - cd henrico.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  3. Instale as dependências: 
+  - npm install.
+  
+  4. Inicie o aplicativo:
+  - npm start.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Créditos 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O Henrico é um projeto desenvolvido baseado no curso que está disponível no Youtube pelo Prof. Matheus Battisti (https://www.youtube.com/watch?v=fg_RYCSi288&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&index=38)
