@@ -1,0 +1,29 @@
+.company_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+  text-align: justify;
+}
+
+.company_container h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.company_container h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.company_container p {
+  margin-bottom: 1.5em;
+  color: #7b7b7b;
+}
+
+.company_container li {
+  color: #7b7b7b;
+  list-style: circle;
+  margin-bottom: 0.5em;
+}
