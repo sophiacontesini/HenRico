@@ -1,5 +1,61 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "name": "Jardim ",
+      "budget": "5000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 4298,
+      "services": [
+        {
+          "name": "Pergolado",
+          "cost": "2998",
+          "id": "4f15e9fe-fe58-4409-97b2-d7d924cb1a58"
+        },
+        {
+          "name": "Muro ",
+          "cost": "1000",
+          "id": "09cc4bf7-4f43-4871-b830-64723a16d3dd"
+        },
+        {
+          "name": "Jardinagem e paisagismo",
+          "cost": "300",
+          "id": "27885214-740d-448e-b9cf-24287e2df546"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Móveis Planejados",
+      "budget": "15000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 15000,
+      "services": [
+        {
+          "name": "Guarda-roupas ",
+          "cost": "5000",
+          "id": "527b1f4d-9e5f-4ac5-972b-dfc08b00dc93"
+        },
+        {
+          "name": "Cozinha e Lavanderia",
+          "cost": "8000",
+          "id": "cf89ddb7-1f41-4b0f-9dfa-876d88f65968"
+        },
+        {
+          "name": "Banheiro ",
+          "description": "",
+          "cost": "2000",
+          "id": "0a90657b-c4c3-4f8e-ab42-4ad9ceb3bf21"
+        }
+      ],
+      "id": 2
+    }
+  ],
   "categories": [
     {
       "id": 1,
