@@ -1,4 +1,10 @@
-# HenRico - Gerenciador de Custos de Projetos
+# HenRico - Gerenciador de Custos de Projetos!
+
+
+![Captura de Tela 2023-08-21 às 11 50 07](https://github.com/sophiacontesini/HenRico/assets/94463723/eb40e2ad-efbb-422f-9cf7-89b1c45790c9)
+
+
+
 
 O HenRico é um aplicativo de gerenciamento de custos de projetos que permite aos usuários adicionar, editar e remover serviços associados a um projeto. Ele também ajuda a acompanhar o orçamento para evitar exceder o orçamento inicial do projeto. O aplicativo foi desenvolvido usando React, JavaScript e Styled Components para a estilização.
 
