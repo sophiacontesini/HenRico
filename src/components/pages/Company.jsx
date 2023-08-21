@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../pages/Company.module.css';
+import LinkButton from '../layout/LinkButton';
 
 export default function Company() {
   return (
@@ -32,6 +33,11 @@ export default function Company() {
         Comece a usar a HenRico hoje mesmo e descubra como tornar o
         gerenciamento de projetos uma experiência gratificante!
       </h4>
+      <p>
+        Comece a usar a HenRico hoje mesmo e descubra como podemos tornar o
+        gerenciamento de projetos e custos uma experiência gratificante.
+      </p>
+      <LinkButton to='/newproject' text='CRIAR PROJETO' />
     </div>
   );
 }
