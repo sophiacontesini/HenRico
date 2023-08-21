@@ -22,6 +22,12 @@
   color: #7b7b7b;
 }
 
+.company_container ul {
+  display: flex;
+  flex-direction: column;
+  margin-right: 800px;
+}
+
 .company_container li {
   color: #7b7b7b;
   list-style: circle;
@@ -34,4 +40,8 @@
 
 .company_container ul {
   margin-right: 800px;
+}
+
+.company_container h4 {
+  margin-top: 8px;
 }

@@ -29,6 +29,10 @@ export default function Company() {
         <li>Acompanhar Orçamento</li>
         <li>Evitar Extravasamento</li>
       </ul>
+      <h4>
+        Comece a usar a HenRico hoje mesmo e descubra como tornar o
+        gerenciamento de projetos uma experiência gratificante!
+      </h4>
       <p>
         Comece a usar a HenRico hoje mesmo e descubra como podemos tornar o
         gerenciamento de projetos e custos uma experiência gratificante.
